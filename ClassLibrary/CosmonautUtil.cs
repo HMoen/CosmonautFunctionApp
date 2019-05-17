@@ -35,7 +35,7 @@ namespace ClassLibrary
         public CosmosStore<CosmonautModel> CreateStore()
         {
             var endpoint = new Uri(@"https://localhost:8081/");
-            var key = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
+            var key = "[AUTH KEY]";
             var policy = new ConnectionPolicy
                              {
                                  ConnectionMode = ConnectionMode.Direct,
